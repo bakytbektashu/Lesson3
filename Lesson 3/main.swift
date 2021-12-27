@@ -1,11 +1,9 @@
-//
-//  main.swift
-//  Lesson 3
-//
-//  Created by Bakyt on 27/12/21.
-//
+var month = 7
+var lessonInOneWeek = 2
+var lessons = 0
 
-import Foundation
+for _ in 1...month {
+    lessons += 4 * lessonInOneWeek
+}
 
-print("Hello, World!")
-
+print(lessons)
